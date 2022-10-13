@@ -13,7 +13,7 @@ const express = require("express");
 const cors = require("cors");
 const app = express();
 
-const HTTP_PORT = process.env.PORT || 8080;
+const HTTP_PORT = process.env.PORT || 8000;
 
 const MoviesDB = require("./modules/moviesDB");
 const db = new MoviesDB();
